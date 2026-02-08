@@ -17,7 +17,7 @@ jobs:
                 node-version: '20'
 
             - name: Validar HTML
-              run: npx html-validator-cli --file=index.html --is-local
+              run: npx htmlhint index.html
 
             - name: Busqueda de links rotos
               uses: JustinBeckwith/linkinator-action@v1
