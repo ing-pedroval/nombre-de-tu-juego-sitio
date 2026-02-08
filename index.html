@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-store" />
+  <title>Desarrollo Web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <span class="logo">Pagina de Inicio</span>
+     <div id="nav-items">
+      <a href="#" class="nav-link active" data-page="principal">Inicio</a>
+      <a href="#" class="nav-link" data-page="nosotros">Conocenos</a>
+      <a href="#" class="nav-link" data-page="servicios">Servicios</a>
+    </div>
+    <input type="text" id="tema-input" placeholder="Nuevo tema...">
+    <button id="add-tema-btn">Agregar</button>
+  </div>
+
+  <div class="content" id="contentArea">
+    <!-- Página Principal -->
+    <div id="principal" class="page visible">
+      <h1><em>Practica de Desarrollo Web Profesional
+      </em></h1>
+      <p><i>Inicio</i></p>
+    </div>
+
+    <!-- Página Nosotros -->
+    <div id="nosotros" class="page">
+      <h1><em>Acerca de Nosotros</em></h1>
+      <p><i>Somos una empresa dedicada a ofrecer no solo un perfumes sino un sentimiento una sensacion.</i></p>
+    </div>
+
+    <!-- Página Servicios -->
+    <div id="servicios" class="page">
+      <h1><em>Nuestros Servicios</em></h1>
+      <p><i>Ofrecemos perfumes artesanales, fragancias exclusivas y productos <br> que transforman cada momento en una experiencia inolvidable.</i></p>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
