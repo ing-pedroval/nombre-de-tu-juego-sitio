@@ -1,7 +1,8 @@
-const nav = document.getElementById('navItems');
-const input = document.getElementById('temaInput');
-const addBtn = document.getElementById('addTemaBtn');
+const nav = document.getElementById('nav-items'); 
+const input = document.getElementById('tema-input'); 
+const addBtn = document.getElementById('add-tema-btn'); 
 const contentArea = document.getElementById('contentArea');
+const installBtn = document.getElementById('installBtn'); 
 
 // Mostrar página por ID y ocultar las demás
 function mostrarPagina(id) {
