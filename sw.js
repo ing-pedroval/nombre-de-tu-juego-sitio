@@ -1,7 +1,7 @@
 const CACHE_NAME = 'site-static-v1';
 
 const assets = [
-  '/',
+  './',
   './index.html',
   './script.js',
   './styles.css',
