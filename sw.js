@@ -3,11 +3,11 @@ const CACHE_NAME = 'site-static-v1';
 const assets = [
   '/',
   './index.html',
-  '/script.js',
-  '/styles.css',
-  '/manifest.json',
-  '/icon-192.jpg',
-  '/icon-512.jpg'
+  './script.js',
+  './styles.css',
+  './manifest.json',
+  './icon-192.jpg',
+  './icon-512.jpg'
 ];
 
 // Se instala el service worker
